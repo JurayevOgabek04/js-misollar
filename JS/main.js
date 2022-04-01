@@ -48,14 +48,14 @@ console.log(typeof(w))
 // 
 
 let info ={
-    "ism" : "og'abek",
-    "familiya" : "Hotamov",
-    "ochestva" : "Bobonazar og'li",
-    "t_yil_oy_kun" : 2000_03_04,
-    "age" : 22,
-    "univer" : "TUIT , TATU", 
-    "o'quv markaz" : "Na'jot talim Xadra filiyali",
-    "yo'alish" : "Fullstack developer"
+    ism : "og'abek",
+    familiya : "Hotamov",
+    ochestva : "Bobonazar og'li",
+    t_yil_oy_kun: 2000_03_04,
+    age : 22,
+    univer : "TUIT , TATU", 
+    uquv_markaz : "Na'jot talim Xadra filiyali",
+    yunalish : "Fullstack developer"
 }
 
 console.log(info)

@@ -53,6 +53,16 @@
 
 
 
+let b = 10;
+let d = 11;
+for (let a = 2 ; a < b; a++){
+    console.log("\n");
+    for (let c=1; c < d; c++){
+
+        console.log(`${a} x ${c} = ${a*c}`);
+    }
+}
+
 
 
 

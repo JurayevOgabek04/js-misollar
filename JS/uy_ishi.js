@@ -1,54 +1,54 @@
-let son1 = prompt("1 chi sonni kiriting!")
-let son2 = prompt("2 chi sonni kiriting!")
-let ishora = prompt("Ishora amalini kiriting(*, /, +, -, %,**)")
+// let son1 = prompt("1 chi sonni kiriting!")
+// let son2 = prompt("2 chi sonni kiriting!")
+// let ishora = prompt("Ishora amalini kiriting(*, /, +, -, %,**)")
 
-if (isNaN(son1) || isNaN(son2)){
-    if (isNaN(son1) && isNaN(son2)){
-        console.log(`Ko'zingni kattaroq och bular <${son1}> va <${son2}> son emas!`);
-    } else if (isNaN(son1)){
-        console.log(`<${son1}> bu son emas!`);
-        console.log(`<${son1}> ning o'rniga son kiriting!`);
-    } else{
-        console.log(`<${son2}> bu son emas!`);
-        console.log(`<${son2}> ning o'rniga son kiriting!`);
-    }
-}else if (son1 && son2) {
-    if (ishora == "*" || ishora == "/" || ishora == "-" || ishora == "+" || ishora == "%" || ishora == "**") {
-        if (ishora == "*") {
-            console.log(`${son1} va ${son2} ni ko'paytirsa ${son1 * son2} ga teng bo'ladi!`);
-        } else if (ishora == "/") {
-            if (son2 != 0){
-                console.log(`${son1} ni ${son2} ga bo'lsak ${son1 / son2} ga teng bo'ladi!`);
-            } else {
-                console.log("0 - ga bo'lish mumkin emas!");
-            }
-        } else if (ishora == "-") {
-            console.log(`${son1} da ${son2} ni ayirsak ${son1 - son2} ga teng bo'ladi!`);
-        } else if (ishora == "+") {
-            console.log(`${son1} ga ${son2} ni qo'shsak ${Number(son1) + Number(son2)} ga teng bo'ladi!`);
-        } else if (ishora == "%") {
-            if (son2 != 0){
-                console.log(`${son1} ni ${son2} ga bo'lganda qoldiq qismi ${son1 % son2} ga teng bo'ladi!`);
-            } else {
-                console.log("Sonni 0 ga bo'lish mumkin emas!");
-            }
-        } else {
-            console.log(`${son1} ning ${son2} chi darajasi ${son1 ** son2} ga teng bo'ladi!`);
-        }
-    } else {
-        console.log("Siz xato amalni kiritdingiz! Iltimos to'g'ri amalni kiriting");
-    }
-} else if (son1 == null || son2 == null ){
-    if (son1 == null && son2 == null){
-        console.log("Siz 1-chi va 2-chi sonlarni kiritmadiz!");
-    } else if (son1 == null){
-        console.log("Siz 1-chi sonni kiritmadiz!");
-    } else if (son2 == null) {
-        console.log("Siz 2-chi sonni kiritmadiz!");
-    }
-} else {
-    console.log("Siz 1-chi yoki 2-chi songa qiymat kiritmadiz");
-}
+// if (isNaN(son1) || isNaN(son2)){
+//     if (isNaN(son1) && isNaN(son2)){
+//         console.log(`Ko'zingni kattaroq och bular <${son1}> va <${son2}> son emas!`);
+//     } else if (isNaN(son1)){
+//         console.log(`<${son1}> bu son emas!`);
+//         console.log(`<${son1}> ning o'rniga son kiriting!`);
+//     } else{
+//         console.log(`<${son2}> bu son emas!`);
+//         console.log(`<${son2}> ning o'rniga son kiriting!`);
+//     }
+// }else if (son1 && son2) {
+//     if (ishora == "*" || ishora == "/" || ishora == "-" || ishora == "+" || ishora == "%" || ishora == "**") {
+//         if (ishora == "*") {
+//             console.log(`${son1} va ${son2} ni ko'paytirsa ${son1 * son2} ga teng bo'ladi!`);
+//         } else if (ishora == "/") {
+//             if (son2 != 0){
+//                 console.log(`${son1} ni ${son2} ga bo'lsak ${son1 / son2} ga teng bo'ladi!`);
+//             } else {
+//                 console.log("0 - ga bo'lish mumkin emas!");
+//             }
+//         } else if (ishora == "-") {
+//             console.log(`${son1} da ${son2} ni ayirsak ${son1 - son2} ga teng bo'ladi!`);
+//         } else if (ishora == "+") {
+//             console.log(`${son1} ga ${son2} ni qo'shsak ${Number(son1) + Number(son2)} ga teng bo'ladi!`);
+//         } else if (ishora == "%") {
+//             if (son2 != 0){
+//                 console.log(`${son1} ni ${son2} ga bo'lganda qoldiq qismi ${son1 % son2} ga teng bo'ladi!`);
+//             } else {
+//                 console.log("Sonni 0 ga bo'lish mumkin emas!");
+//             }
+//         } else {
+//             console.log(`${son1} ning ${son2} chi darajasi ${son1 ** son2} ga teng bo'ladi!`);
+//         }
+//     } else {
+//         console.log("Siz xato amalni kiritdingiz! Iltimos to'g'ri amalni kiriting");
+//     }
+// } else if (son1 == null || son2 == null ){
+//     if (son1 == null && son2 == null){
+//         console.log("Siz 1-chi va 2-chi sonlarni kiritmadiz!");
+//     } else if (son1 == null){
+//         console.log("Siz 1-chi sonni kiritmadiz!");
+//     } else if (son2 == null) {
+//         console.log("Siz 2-chi sonni kiritmadiz!");
+//     }
+// } else {
+//     console.log("Siz 1-chi yoki 2-chi songa qiymat kiritmadiz");
+// }
 
 
 
@@ -162,3 +162,66 @@ if (isNaN(son1) || isNaN(son2)){
 //         console.log("Iltimos 1 - 1000 oraliqdagi biron bir son kiriting!");
 //     }
 // }
+
+
+
+
+
+
+
+
+
+
+//  // day 8 uy ishi
+
+function convertion(currency, value) {
+    if (currency === "sum-rub"){
+        return value / 142   // rub kursi 142 so'm
+    } else if (currency === "usd-sum"){
+        return value * 11_329 // usd kursi 11329 so'm
+    }
+    
+}
+
+
+let  currency= prompt("So'mdan rubilga <sum-rub>, Dollardan so'mga <usd-sum> ")
+let value = +prompt("Qiymat kiritng!")
+let result = convertion(currency,value)
+console.log(result);
+
+
+// //  //   Generator
+
+
+
+// function Getrandom() {
+//     return Math.floor(Math.random()*Math.pow(10,6))  
+// }
+
+// let value = Getrandom()
+// console.log(value);
+
+
+
+
+
+
+
+// function Generator(num){
+//     return String(Math.floor((Math.random())*Math.pow(10,num))).split("")
+// }
+
+// let num = +prompt("Siz nechta tasodifiy son olmoqchisiz!");
+// let result = Generator(num).toString();
+
+// console.log(result);
+
+
+// function Generator(num){
+//     return String(Math.floor(Math.random())).split(" ",num)
+// }
+
+// let num = +prompt("Siz nechta tasodifiy son olmoqchisiz!");
+// let result = Generator(num).toString();
+
+// console.log(result);

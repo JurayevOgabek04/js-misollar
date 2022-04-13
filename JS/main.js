@@ -595,4 +595,5 @@
 
 //     // console.log(("siz kiritgan").concat(" ", son));
 //     console.log(`siz kiritgan son ${son}`);
+console.log("grrg")
 

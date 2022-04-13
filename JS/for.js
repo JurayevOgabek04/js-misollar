@@ -53,11 +53,11 @@
 
 //  // for 7
 
-// let a = 1;
-// let b = 10;
+// let a = +prompt("a = ");
+// let b = +prompt("B = ");
 // let list =  0;
-// for (let c = a; a < b; a++) {
-//     list += a
+// for (let c = a; c < b; c++) {
+//     list += c
 // }
 
 // console.log(list);
@@ -110,10 +110,10 @@
 
 //  // for 12
 
-// let a = 1;
+
 // let b = 11;
 // let list =  1;
-// for (let c = a; a < b; a += 0.1) {
+// for (let a = 1; a < b; a += 0.1) {
 //     list *= a
 // }
 
@@ -121,10 +121,9 @@
 
 //  // for 13
 
-// let a = 1;
 // let b = 2;
 // let list =  0;
-// for (let c = a; a < b; a += 0.1 ){
+// for (let a = 1 a < b; a += 0.1 ){
 //     list += a
 // }
 
@@ -132,10 +131,10 @@
 
 //  // for 14
 
-// let a = 1;
+// 
 // let b = 10;
 // let list =  0;
-// for (let c = a; a < b; a++) {
+// for (let a = 1; a < b; a++) {
 //     list += a**2
 //     console.log(list);
 // }
@@ -172,3 +171,66 @@
 // if (son1 && son2){
 //     console.log(Number(son1) + Number(son2));
 // }
+
+//  // for 16
+
+// let a = prompt("a ni kiriting")
+// let n = prompt("darajani kiriting")
+
+// for (let b = 1; b < n ; b++){
+//     console.log(`${a} ning ${b} darajasi ${a**b} ga teng!`);
+// }
+
+
+//  //  for 17
+
+// let a = Number(prompt("A sonini kiriting!"))
+// let n = Number(prompt("N darajani kiritin!"))
+// let summa = 0;
+// for (let b = 1; b <= n; b++){
+//     summa += a**b
+//     console.log(`${a} ning ${b} darajasi ${a**b}`);
+
+// }
+
+// console.log(summa);
+
+
+//  // for 18
+
+// let a = Number(prompt("A sonini kiriting!"))
+// let n = Number(prompt("N darajani kiritin!"))
+// let summa = 0;
+// for (let b = 1; b <= n; b++){
+//     summa += (-a)**b
+//     console.log(`${a} ning ${b} darajasi ${(-a)**b}`);
+
+// }
+
+// console.log(summa);
+
+//  // for 19
+
+// let n = Number(prompt("N sonini kiriting!"))
+// let kopaytma = 1;
+
+// for (let a = 1; a <= n; a++){
+//     kopaytma *= a
+// }
+
+// console.log(kopaytma);
+
+
+//  // for 20
+
+// let n = Number(prompt("N ni kiriting!"))
+// let summa = 0;
+
+// for (let a = 1; a <= n; a++){
+//     summa += Math.foctorial(a)
+    
+// }
+
+// console.log(summa);
+
+// console.log("Hello")
